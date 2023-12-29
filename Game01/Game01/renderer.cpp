@@ -33,7 +33,7 @@ internalVariable void drawRectangle(float x, float y, float halfSizeX, float hal
 	x *= renderState.height * renderScale;
 	y *= renderState.height * renderScale;
 	halfSizeX *= renderState.height * renderScale;
-	halfSizeX *= renderState.height * renderScale;
+	halfSizeY *= renderState.height * renderScale;
 
 	x += renderState.width / 2.f;
 	y += renderState.height / 2.f;

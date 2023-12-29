@@ -14,5 +14,5 @@ internalVariable void simulateGame(Input* input) {
 
 	drawRectangle(playerPositionX, playerPositionY, 1, 1, 0x00ff22);
 	drawRectangle(30, 30, 5, 5, 0xffff22);
-	drawRectangle(-20, 20, 8, 3, 0xffff22);
+	drawRectangle(-20, 20, 8, 3, 0x5500ff);
 }
